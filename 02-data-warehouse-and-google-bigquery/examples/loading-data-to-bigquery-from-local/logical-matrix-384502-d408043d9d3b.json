@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "logical-matrix-384502",
+  "private_key_id": "d408043d9d3b8bb53e6f337e0d2a936eb83bd30e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCgbAYB8FwUoq3W\nuSJ0CTgxliN8ztcvJXiFjZVXDdsvS/U1qwK+y3IcapZvBJjMUnvKH1k3kAayXOVV\n9LrrQ4KH7AEx3vT8i2HRv25DUSDsxYIi4N/+H1U9bxLOOtC5H7gTMEVjQ/IkbFvX\nje3tIBqC6GYcLrftT1x9GHNU7lqQdFLtAiLRQKinLxuunGAu9+A4uaQPaTBaRzEp\nc6DMJJS6boX7Dk0m01h1vUqSbZyFnRw9MVyFLVml4kvlxaMbSTBox8Pzvb5sNsid\n5pzjS5aF82lgxbdWj1iMSsfUMOBkJIOa0xE5eLWO3ZhDpv3cbk0t5xTh1e3HKKzM\nqtlDFrn1AgMBAAECggEACMFvQCwBy+gyGTyrBk7E1/ipZgPgXOohuRZTFDiFIesh\nI8VPkHbIUF06lINuzINkTryQcRbQYBaaYhXfSCe73YEdHT9IO0AR6McBigqI7mtR\nkOeZn27PMfEYmL6/NW9nVk1wPWdQCrq1oN7rTAx7GJx9tY7mNSf7n2Hrf4iafZ+e\nxLor41H6SBPIXJHHyVKkHScm4yvEGeou8ObLGRGmy18usx8KC6zJWigyvQAtUSNl\n9MJ6ObrCoYwYXEFrt7jmKnZI9ayUaIuozgSSNm1TT75N9TbQOWvGnsh5F5UnXxc6\nxFDu5XbzjP3ZCkNlWadRPWuGMWituGQZhx1n4y1jWQKBgQDiciOvuvcWjrFxA72m\nju9wRjj8DFX+SKSEzXA8bh7D55x428b3FkKI0S/rFPx+39PJ2szsMdKTn+Takfj+\nbx8P20o2eSLGInuZltNj1YGiwpkV2qfxlpqZtonT0w+JQVkTYyTOmrGRfW0UlAyF\nvMloHELnzO9GIafF8FI5euSzCQKBgQC1W+/l/9Fr01yQXr7Bazs9F/flIKoHHrHK\ndFqo6VDfZG5uvu2lop9NVfDeaUJbnFLicw+ciPxDbAC6xlteItA2oUuE1XRn1ry3\nHH7OUblXwmb2PKwIwiUWijFmCQuDyj/W24myVJgzqBVx+3jiAgant2cF+ri1qEWY\nDYBsQfCujQKBgFaIb4Kz28BO/xfE6jA/5tfsvdHzlNj7QYNOTlmJa1BJrc2xjrLV\nWs+VwM4A0wxY1EIKzsxjraikLXwo1BHGvQP+NLnkSJmWi80Bif5YlJVx77YePJdh\nieq7iqfbu9AjnLp/5IzfKIQEfi6i9LYWkpCqXBbghX8zVT2avJEimUqhAoGAYHvi\n6yfoEEdILX5aWahkwaHovjtceaE40Q6J1OcboV1a6wwkfkRAH/KizJCPPxGxfsvb\n+Flga7YfxT4WCcTXpNi2xpqQ7VVu3LQKOlV8F1ZTVJj+pUI0XQN0OGaDe7+zqujt\nHrSmrIS1tAgnTYXqaHvIEYRLlElLjRNRyUZjd1kCgYEAyCPT54UvO4lYhfM/+Wxg\ncEKQyq4yyVSP+iXECudLW+6TLWI7VyVo5qcOvL7evq38j6fjEBt41yGnjgNrXAOP\nuLdiVOp6qi4YUEIsK9+YrbfyejpuDAfpxFm52TeA+IcoU0nZE3waQPGpOsSZnxmh\n2hHdtt5/5djJhz4hXD2wZdI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "deb-bigquery-workshop-day-2@logical-matrix-384502.iam.gserviceaccount.com",
+  "client_id": "103651376851932389081",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/deb-bigquery-workshop-day-2%40logical-matrix-384502.iam.gserviceaccount.com"
+}

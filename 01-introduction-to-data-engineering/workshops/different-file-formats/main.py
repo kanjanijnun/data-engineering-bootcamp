@@ -39,7 +39,7 @@ df_csv.to_parquet("homes.parquet")
 df_pq = pd.read_parquet("homes.parquet")
 print(df_pq.head())
 
-## CLI: parquet-tools inspect --detail homes.parquet
+## CLI: poetry run parquet-tools inspect --detail homes.parquet
 
 print("### Avro ###")
 schema_file_name = "user.avsc"
