@@ -1,0 +1,42 @@
+greenery:
+
+  outputs:
+    dbt_chertam:
+      type: postgres
+      threads: 1
+      host: localhost
+      port: 5432
+      user: postgres
+      pass: "{{ env_var('DBT_ENV_SECRET_PG_PASSWORD') }}"
+      dbname: greenery
+      schema: dbt_chertam
+
+    prod:
+      type: postgres
+      threads: 1
+      host: localhost
+      port: 5432
+      user: postgres
+      pass: "{{ env_var('DBT_ENV_SECRET_PG_PASSWORD') }}"
+      dbname: greenery
+      schema: prod
+
+    dbt_chertam_bigquery:
+      type: bigquery
+      method: service-account
+      project: logical-matrix-384502
+      dataset: dbt_chertam
+      threads: 1
+      keyfile: /workspaces/data-engineering-bootcamp/00-bootcamp-project/logical-matrix-384502-d408043d9d3b.json
+      location: asia-southeast1
+
+    prod_bigquery:
+      type: bigquery
+      method: service-account
+      project: logical-matrix-384502
+      dataset: deb_bootcamp
+      threads: 1
+      keyfile: /workspaces/data-engineering-bootcamp/00-bootcamp-project/logical-matrix-384502-d408043d9d3b.json
+      location: asia-southeast1
+
+  target: dbt_chertam_bigquery

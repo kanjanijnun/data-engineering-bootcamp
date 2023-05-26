@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: greenery
+    schema: my_dev_workshop
+    database: logical-matrix-384502
+
+    tables:
+      - name: users
+        description: Greenery users
+      - name: events
+        description: Greenery events
+      - name: addresses
+      - name: order_items
+      - name: orders
+      - name: products
+      - name: promos
