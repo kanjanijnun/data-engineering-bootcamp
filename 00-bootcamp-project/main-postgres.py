@@ -3,7 +3,11 @@ import configparser
 
 import psycopg2
 
+<<<<<<< HEAD
 # 1 โหลด Config
+=======
+
+>>>>>>> refs/remotes/origin/main
 parser = configparser.ConfigParser()
 parser.read("pipeline.conf")
 dbname = parser.get("postgres_config", "database")
@@ -12,7 +16,10 @@ password = parser.get("postgres_config", "password")
 host = parser.get("postgres_config", "host")
 port = parser.get("postgres_config", "port")
 
+<<<<<<< HEAD
 # 2 สร้าง Connection string ใส่ credential
+=======
+>>>>>>> refs/remotes/origin/main
 conn_str = f"dbname={dbname} user={user} password={password} host={host} port={port}"
 conn = psycopg2.connect(conn_str)
 cursor = conn.cursor()
